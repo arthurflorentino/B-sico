@@ -14,6 +14,3 @@ print('6) Meu', 'nome', 'é', sep='_', end='*')
 print('Arthur', 'Silva', sep='*', end='*\n')
 
 print("\n7) Arthur", "Florentino", sep="&",)
-
-
-
