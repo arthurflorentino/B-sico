@@ -27,3 +27,9 @@ print('9) "Eu sou" \n""aprendizado"" \n"""Python"""')
 
 # Desafio 2
 print("10) \"Eu sou\"\n\"\"aprendizado\"\"\n\"\"\"Python\"\"\"")
+
+# Operações matemáticas
+print(f'11) O resto é {14 % 4} e o quociente é {14 // 4}.')
+
+# Módulo
+print(f'12) O resto é {12 % 4.5}')
