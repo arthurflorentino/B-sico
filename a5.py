@@ -3,4 +3,16 @@
 a = 3.0
 b = 4.0
 c = (a ** 2 + b ** 2) ** 0.5
-print(f'3) c = {c}')
+print(f'1) c = {c}\n')
+
+# Retângulo
+print(f'2)')
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+print(f'\n')
+
+# Expressão matemática
+x = float(input("Digite o valor para x: "))
+y = 1 / (x + 1 / (x + 1 / (x + 1 / x)))
+print("y =", y)
