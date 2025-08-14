@@ -13,6 +13,6 @@ print("+" + 10 * "-" + "+")
 print(f'\n')
 
 # Expressão matemática
-x = float(input("Digite o valor para x: "))
+x = 5
 y = 1 / (x + 1 / (x + 1 / (x + 1 / x)))
-print("y =", y)
+print(f'3) y = {y}\n')
