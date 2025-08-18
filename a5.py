@@ -16,3 +16,21 @@ print(f'\n')
 x = 5
 y = 1 / (x + 1 / (x + 1 / (x + 1 / x)))
 print(f'3) y = {y}\n')
+
+# Horas
+print('4) Horários do evento:')
+horas = 12
+min = 5
+duracao = 45
+min += duracao  # encontre um total de todos os minutos
+horas += min // 60 # encontre um número de horas escondido em minutos e atualize a hora
+min %= 60 # minutos corretos para cair no intervalo (0..59)
+horas %= 24 # horas corretas para cair no intervalo (0..23)
+
+print(f'O evendo terminará às {horas}:{min}.\n')
+
+# Desafio com operadores de comparação
+n = 55
+m = 101
+print(f'5)\n{n >= 100}')
+print(m >= 100, '\n')
